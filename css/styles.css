@@ -1,0 +1,200 @@
+/* title */
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.fluid-container{
+  padding: 2% 12% 8%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.download-btn{
+  margin: 5% 3% 0 0;
+}
+
+.title-image{
+  width: 55%;
+  transform: rotate(27deg);
+  position: absolute;
+  right: 25%;
+}
+
+  /* Features */
+
+.features-col{
+  text-align: center;
+  padding: 5%;
+}
+
+#features{
+  padding: 0 15%;
+  background-color: white;
+  position: relative;
+}
+
+.features-h3{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-p{
+  font-family: Montserrat;
+  color: #8f8f8f;
+}
+
+.features-icon{
+  padding-bottom: 15px;
+  color: #ef8172;
+}
+
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+  /* Testimonials */
+
+#testimonials{
+  text-align: center;
+  /* padding: 7% 22%; */
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-pic{
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testimonial-heading{
+  font-family: Montserrat;
+  font-weight: bolder;
+  line-height: 70px;
+  padding: 4% 10%;
+}
+
+.testimonial-para{
+  font-family: Montserrat;
+  padding: 4% 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Press */
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-pic{
+  width: 12%;
+  margin: 0 2% 2% 3%;
+}
+
+/* Pricing */
+
+#pricing{
+  text-align: center;
+  padding: 5%;
+}
+
+.pricing-p,.card-body{
+  font-family: Montserrat;
+  color: #8f8f8f;
+}
+
+.pricing-h{
+  font-family: Montserrat;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 2%;
+}
+
+.pricing-h3{
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.pricing-col{
+  padding: 3% 5%;
+}
+
+/* CallToAction */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7%;
+  text-align: center;
+}
+
+.cta-h{
+  padding: 2%;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.download-btn2{
+  margin: 0 1.5%;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding: 7%;
+}
+
+.footer-p{
+  color: #8f8f8f;
+  font-size: 14px;
+  padding-top: 1.5%;
+}
+
+.footer-icon{
+  padding: 0.8%;
+}
+
+/* Responsiveness */
+
+@media (max-width: 998px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    margin: 40px 0 10px;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
